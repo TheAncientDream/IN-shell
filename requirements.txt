@@ -1,0 +1,9 @@
+requests
+beautifulsoup4
+
+# Discord support
+discord.py==2.3.2     # main library (async)
+python-dotenv         # if you load DISCORD_TOKEN from .env
+
+# Optional but common
+aiohttp                # discord.py already uses this, but some scripts import it directly
